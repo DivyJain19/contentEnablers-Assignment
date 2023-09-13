@@ -1,0 +1,14 @@
+.menu {
+  padding: 0 5rem;
+  display: flex;
+  margin-bottom: 2rem;
+}
+.tab {
+  padding: 1rem 2rem;
+  cursor: pointer;
+}
+.selected {
+  background-color: red;
+  color: white;
+  font-weight: bolder;
+}

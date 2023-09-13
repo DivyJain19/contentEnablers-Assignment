@@ -1,0 +1,47 @@
+.video {
+  aspect-ratio: 16 / 9;
+  width: 100%;
+  height: 70vh;
+}
+.contentBox {
+  display: flex;
+}
+.tabs {
+  background-color: #eeeeee;
+  min-width: 20rem;
+  /* margin-right: 2rem; */
+}
+.tab {
+  padding: 4rem 2rem;
+
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  border-bottom: 1px solid #9e9fa5;
+}
+.selectedTab {
+  background-color: #337ccf;
+  color: white;
+}
+
+.dummyBox {
+  width: 15rem;
+  height: 10rem;
+  background-color: black;
+}
+.videoBox {
+  width: 15rem;
+
+  margin: 0 1rem 2rem 0;
+}
+.title {
+  color: black;
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
+.border {
+  color: #9e9fa5;
+  background-color: #9e9fa5;
+  opacity: 0.5;
+  width: 100%;
+}
